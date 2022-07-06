@@ -9,11 +9,13 @@
  *
  * @num2: integer2.
  * Return: addition result.
- *
  */
+
 
 int add(int a, int b)
 
+	int c;
+	c = a+b;
 {
-	return (a + b);
+	return c;
 }
