@@ -5,7 +5,6 @@
 /**
  * _islower -  checks for lowercase character and return 1 or 0
  *@c:int
- *
  *Return: @c value
  */
 
