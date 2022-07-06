@@ -22,7 +22,7 @@ void times_table(void)
 				_putchar (v / 10 + '0');
 				_putchar (v % 10 + '0');
 			}
-			else if (j != 0 )
+			else if (j != 0)
 			{
 				_putchar (' ');
 				_putchar (i * j + '0');
