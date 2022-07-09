@@ -18,16 +18,12 @@ int main(void)
 			putchar(' ');
 			putchar((nb2 / 10) + '0');
 			putchar((nb2 % 10) + '0');
-			
 			if (nb1 == 98 && nb2 == 99)
 				break;
-			
 			putchar(',');
 			putchar(' ');
 		}
 	}
-	
 	putchar('\n');
-	
 	return (0);
 }
