@@ -26,7 +26,7 @@ int _sqr(int sqr, int n)
 /**
  * _sqrt_recursion - function that returns the natural square root of a number.
  * Return: sqr of  @n, if n does not have a natural square root,
- * the function should return -1
+ * @n: the function should return -1
  */
 
 int _sqrt_recursion(int n)
