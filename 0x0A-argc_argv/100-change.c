@@ -38,6 +38,7 @@ int main(int argc, char const *argv[])
 	if (isInteger(argv[1]))
 	{
 		i = atoi(argv[1]);
+
 		while (i > 0 && coin <= 4)
 		{
 			if (i >= coins[coin])
