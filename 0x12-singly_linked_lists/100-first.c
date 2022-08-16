@@ -1,9 +1,16 @@
 #include <stdio.h>
 
 /**
- * premain - run before main
+ * firstfunc - prints before the main function is executed.
+ *
+ * Return: Always 0.
  */
-void __attribute__ ((constructor)) premain()
+void firstfunc(void) __attribute__ ((constructor));
+
+void firstfunc(void)
 {
-	printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
+	char *m;
+	
+	m = "You're beat! and yet, you must allow,\nI bore my house upon my back!\n";
+	printf("%s", m);
 }
