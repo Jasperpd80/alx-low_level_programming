@@ -23,10 +23,10 @@
 int get_endianness(void)
 
 {
-	int num = 1;
-	char *endian = (char *)&num;
-	
-	if (*endian == 1)
-		return (1);
-	return (0);
+	int x;
+	char *y;
+
+	x = 1;
+	y = (char *)&x;
+	return (*y);
 }
