@@ -26,7 +26,7 @@ int _strlen(const char *s)
  * Return: 0 or converted number
  */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int n = 0;
 	int i, len;
