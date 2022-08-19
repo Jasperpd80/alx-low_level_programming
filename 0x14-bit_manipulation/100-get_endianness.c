@@ -1,11 +1,3 @@
-/**
- *
- * File: 100-get_endianness.c
- *
- * Auth: Brennan D Baraban
- *
- */
-
 #include "main.h"
 
 
@@ -28,5 +20,6 @@ int get_endianness(void)
 
 	x = 1;
 	y = (char *)&x;
+
 	return (*y);
 }
