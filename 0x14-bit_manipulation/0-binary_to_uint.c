@@ -29,7 +29,7 @@ int _strlen(const char *s)
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int res = 0;
+	unsigned int n = 0;
 	int i, len;
 
 	if (b == NULL)
@@ -45,6 +45,6 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 	}
 
-	return (res);
+	return (n);
 
 }
